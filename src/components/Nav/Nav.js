@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import ('./navbar.css')
 
 class Nav extends Component {
   render() {
     return (
-      <nav class="uk-navbar-container" uk-navbar>
+      <nav class="uk-navbar-container" uk-navbar="true">
       <div class="uk-navbar-left">
   
           <ul class="uk-navbar-nav">
